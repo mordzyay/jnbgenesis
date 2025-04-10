@@ -2,7 +2,7 @@ Invincible_Header:
 	smpsHeaderStartSong 2
 	smpsHeaderVoice     Invincible_Voices
 	smpsHeaderChan      $06, $03
-	smpsHeaderTempo     $01, $E8
+	smpsHeaderTempo     $01, $F4
 
 	smpsHeaderDAC       Invincible_DAC
 	smpsHeaderFM        Invincible_FM1,	$F4, $11

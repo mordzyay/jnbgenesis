@@ -17993,9 +17993,9 @@ ScrollHoriz:
 ; loc_D732:
 .checkIfShouldScroll:
 	sub.w	(a1),d0
-	subi.w	#(320/2)-16,d0		; is the player less than 144 pixels from the screen edge?
+	subi.w	#(320/2)-0,d0		; is the player less than 144 pixels from the screen edge?
 	blt.s	.scrollLeft	; if he is, scroll left
-	subi.w	#16,d0		; is the player more than 159 pixels from the screen edge?
+	subi.w	#0,d0		; is the player more than 159 pixels from the screen edge?
 	bge.s	.scrollRight	; if he is, scroll right
 	clr.w	(a4)		; otherwise, don't scroll
 ; return_D742:
@@ -90760,14 +90760,14 @@ MusPtr_WFZ:		rom_ptr_z80	Mus_WFZ
 MusPtr_EHZ_2P:		rom_ptr_z80	Mus_EHZ_2P
 MusPtr_2PResult:	rom_ptr_z80	Mus_2PResult
 MusPtr_SuperSonic:	rom_ptr_z80	Mus_SuperSonic
-MusPtr_HTZ:		rom_ptr_z80	Mus_HTZ
+MusPtr_HTZ:		rom_ptr_z80	Mus_ExtraLife
 MusPtr_ExtraLife:	rom_ptr_z80	Mus_ExtraLife
 MusPtr_Title:		rom_ptr_z80	Mus_Title
 MusPtr_EndLevel:	rom_ptr_z80	Mus_EndLevel
 MusPtr_GameOver:	rom_ptr_z80	Mus_GameOver
 MusPtr_Invincible:	rom_ptr_z80	Mus_Invincible
 MusPtr_Emerald:		rom_ptr_z80	Mus_Emerald
-MusPtr_HPZ:		rom_ptr_z80	Mus_HPZ
+MusPtr_HPZ:		rom_ptr_z80	Mus_ExtraLife
 MusPtr_Drowning:	rom_ptr_z80	Mus_Drowning
 MusPtr_Credits:		rom_ptr_z80	Mus_Credits
 
@@ -90795,7 +90795,6 @@ Mus_WFZ:	BINCLUDE	"sound/music/compressed/8F - WFZ.sax"
 Mus_EHZ_2P:	BINCLUDE	"sound/music/compressed/8C - EHZ 2P.sax"
 Mus_2PResult:	BINCLUDE	"sound/music/compressed/81 - 2 Player Menu.sax"
 Mus_SuperSonic:	BINCLUDE	"sound/music/compressed/96 - Super Sonic.sax"
-Mus_HTZ:	BINCLUDE	"sound/music/compressed/86 - HTZ.sax"
 Mus_Title:	BINCLUDE	"sound/music/compressed/99 - Title Screen.sax"
 Mus_EndLevel:	BINCLUDE	"sound/music/compressed/9A - End of Act.sax"
 

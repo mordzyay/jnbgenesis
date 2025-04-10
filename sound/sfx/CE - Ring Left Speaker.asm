@@ -9,6 +9,6 @@ Sound4E_RingLeft_Header:
 ; FM4 Data
 Sound4E_RingLeft_FM4:
 	smpsSetvoice        $00
-	smpsPan             panLeft, $00
-	dc.b	nE5, $04, nG5, $05, nC6, $1B
+	smpsPan             panRight, $00
+	dc.b	nG5, $05, nC6, $1B
 	smpsStop

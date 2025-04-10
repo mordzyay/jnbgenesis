@@ -1,47 +1,47 @@
-Map_obj37_a:	mappingsTable
-	mappingsTableEntry.w	Map_obj37_a_0012
-	mappingsTableEntry.w	Map_obj37_a_001C
-	mappingsTableEntry.w	Map_obj37_a_0026
-	mappingsTableEntry.w	Map_obj37_a_0030
-	mappingsTableEntry.w	Map_obj37_a_003A
-	mappingsTableEntry.w	Map_obj37_a_0044
-	mappingsTableEntry.w	Map_obj37_a_004E
-	mappingsTableEntry.w	Map_obj37_a_0058
-	mappingsTableEntry.w	Map_obj37_a_0062
+Map_8fee: mappingsTable
+	mappingsTableEntry.w	Map_8fee_0
+	mappingsTableEntry.w	Map_8fee_1
+	mappingsTableEntry.w	Map_8fee_2
+	mappingsTableEntry.w	Map_8fee_3
+	mappingsTableEntry.w	Map_8fee_4
+	mappingsTableEntry.w	Map_8fee_5
+	mappingsTableEntry.w	Map_8fee_6
+	mappingsTableEntry.w	Map_8fee_7
+	mappingsTableEntry.w	Map_8fee_8
 
-Map_obj37_a_0012:	spriteHeader
-	spritePiece	-8, -8, 2, 2, 0, 0, 0, 0, 0
-Map_obj37_a_0012_End
+Map_8fee_0:	spriteHeader
+ spritePiece -8, -8, 2, 2, 0, 0, 0, 0, 0
+Map_8fee_0_End
 
-Map_obj37_a_001C:	spriteHeader
-	spritePiece	-8, -8, 2, 2, 4, 0, 0, 0, 0
-Map_obj37_a_001C_End
+Map_8fee_1:	spriteHeader
+ spritePiece -8, -8, 2, 2, 4, 0, 0, 0, 0
+Map_8fee_1_End
 
-Map_obj37_a_0026:	spriteHeader
-	spritePiece	-4, -8, 1, 2, 8, 0, 0, 0, 0
-Map_obj37_a_0026_End
+Map_8fee_2:	spriteHeader
+ spritePiece -4, -8, 1, 2, 8, 0, 0, 0, 0
+Map_8fee_2_End
 
-Map_obj37_a_0030:	spriteHeader
-	spritePiece	-8, -8, 2, 2, 4, 1, 0, 0, 0
-Map_obj37_a_0030_End
+Map_8fee_3:	spriteHeader
+ spritePiece -8, -8, 2, 2, 4, 1, 0, 0, 0
+Map_8fee_3_End
 
-Map_obj37_a_003A:	spriteHeader
-	spritePiece	-8, -8, 2, 2, $A, 0, 0, 0, 0
-Map_obj37_a_003A_End
+Map_8fee_4:	spriteHeader
+ spritePiece -8, -8, 2, 2, $A, 0, 0, 0, 0
+Map_8fee_4_End
 
-Map_obj37_a_0044:	spriteHeader
-	spritePiece	-8, -8, 2, 2, $A, 1, 1, 0, 0
-Map_obj37_a_0044_End
+Map_8fee_5:	spriteHeader
+ spritePiece -8, -8, 2, 2, $A, 1, 1, 0, 0
+Map_8fee_5_End
 
-Map_obj37_a_004E:	spriteHeader
-	spritePiece	-8, -8, 2, 2, $A, 1, 0, 0, 0
-Map_obj37_a_004E_End
+Map_8fee_6:	spriteHeader
+ spritePiece -8, -8, 2, 2, $A, 1, 0, 0, 0
+Map_8fee_6_End
 
-Map_obj37_a_0058:	spriteHeader
-	spritePiece	-8, -8, 2, 2, $A, 0, 1, 0, 0
-Map_obj37_a_0058_End
+Map_8fee_7:	spriteHeader
+ spritePiece -8, -8, 2, 2, $A, 0, 1, 0, 0
+Map_8fee_7_End
 
-Map_obj37_a_0062:	spriteHeader
-Map_obj37_a_0062_End
+Map_8fee_8:	spriteHeader
+Map_8fee_8_End
 
 	even
